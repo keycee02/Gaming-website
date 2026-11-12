@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Vault | NEXUS ARENA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">NEXUS<span>ARENA</span></a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Esports & Lore</a>
+        <a href="gallery.html" class="active">Game Vault</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section-pad">
+    <h1 class="section-title">The Game Vault</h1>
+    <p class="section-subtitle">Select any title below to inspect gameplay specs and ratings.</p>
+
+    <div class="grid-3">
+      <!-- Game 1 -->
+      <article class="card game-card">
+        <img src="images/game1.jpg" alt="Cyber Strike Cover Art">
+        <div class="game-body">
+          <span class="card-tag">FPS // SCI-FI</span>
+          <h3>Cyber Strike: Overdrive</h3>
+          <p>Fast-paced arena shooter with grappling mechanics and modular weapon crafting.</p>
+          <a href="#game-modal-1" class="btn btn-primary btn-sm">View Specs</a>
+        </div>
+      </article>
+
+      <!-- Game 2 -->
+      <article class="card game-card">
+        <img src="images/game2.jpg" alt="Starfall Odyssey Cover Art">
+        <div class="game-body">
+          <span class="card-tag">ACTION RPG</span>
+          <h3>Starfall Odyssey</h3>
+          <p>Explore uncharted star systems, command a customizable cruiser, and battle cosmic leviathans.</p>
+          <a href="#game-modal-2" class="btn btn-primary btn-sm">View Specs</a>
+        </div>
+      </article>
+
+      <!-- Game 3 -->
+      <article class="card game-card">
+        <img src="images/game3.jpg" alt="Pixel Dungeon Masters Cover Art">
+        <div class="game-body">
+          <span class="card-tag">ROGUELIKE</span>
+          <h3>Pixel Dungeon Masters</h3>
+          <p>Retro 16-bit dungeon crawler with procedural floors, permadeath, and co-op raids.</p>
+          <a href="#game-modal-3" class="btn btn-primary btn-sm">View Specs</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Pure CSS :target Modals -->
+  <div id="game-modal-1" class="modal">
+    <div class="modal-box">
+      <a href="#close" class="close-btn">&times;</a>
+      <span class="card-tag">RATING: 9.4 / 10</span>
+      <h2>Cyber Strike: Overdrive</h2>
+      <p><strong>Platform:</strong> PC / Console &bull; <strong>Players:</strong> 1–10 Online</p>
+      <p>Features 120Hz competitive tick-rate servers, 14 cybernetic classes, and zero pay-to-win cosmetics.</p>
+    </div>
+  </div>
+
+  <div id="game-modal-2" class="modal">
+    <div class="modal-box">
+      <a href="#close" class="close-btn">&times;</a>
+      <span class="card-tag">RATING: 9.1 / 10</span>
+      <h2>Starfall Odyssey</h2>
+      <p><strong>Platform:</strong> PC &bull; <strong>Players:</strong> Single-Player / 4-Player Co-op</p>
+      <p>Over 40 hours of story campaigns, seamless planetary landings, and dynamic faction diplomacy.</p>
+    </div>
+  </div>
+
+  <div id="game-modal-3" class="modal">
+    <div class="modal-box">
+      <a href="#close" class="close-btn">&times;</a>
+      <span class="card-tag">RATING: 8.9 / 10</span>
+      <h2>Pixel Dungeon Masters</h2>
+      <p><strong>Platform:</strong> PC / Handheld &bull; <strong>Players:</strong> 1–4 Local &amp; Online</p>
+      <p>Features 200+ relic combinations, chiptune boss soundtracks, and daily seeded speedrun challenges.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 NEXUS ARENA Gaming Showcase. Crafted with Pure HTML5 &amp; CSS3.</p>
+  </footer>
+
+</body>
+</html>
